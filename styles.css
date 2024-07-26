@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Ensure a consistent font family */
+    background: url('cyberpunk4.gif') no-repeat center center fixed;
+    background-size: cover;
+    overflow: auto;
+}
+.container {
+    width: 80%; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+}
+
+header, section, footer {
+    text-align: center; /* Center text and inline elements within these sections */
+    color: white; /* Ensure all text is white */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center navigation items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Adjust font size for better readability */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    margin: 20px 0; /* Space above and below headings */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px; /* Space below each section */
+}
+
+/* Skills section */
+#skills ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#skills li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Projects section */
+.project {
+    margin-bottom: 30px; /* Space between projects */
+}
+
+/* Experience section */
+.experience {
+    margin-bottom: 30px; /* Space below experience items */
+}
+
+/* Certificates section */
+#certificates ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#certificates li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Contact section */
+#contact ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#contact li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#contact a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+#contact h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Resume section */
+#resume {
+    margin-bottom: 40px; /* Space below the resume section */
+}
+
+/* Footer styles */
+footer {
+    margin-top: 40px; /* Space above the footer */
+    padding: 20px; /* Padding inside the footer */
+}
+
